@@ -17,6 +17,5 @@ format:
 
 editor: visual
 
+# Configura a pasta de saída para 'docs'
 output-dir: docs
-
-
