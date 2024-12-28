@@ -1,5 +1,6 @@
 ---
-title: "dastat"
+title: "Dastat"
+format: html
 ---
 
 This is a Quarto website.

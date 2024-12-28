@@ -2,12 +2,19 @@ project:
   type: website
 
 website:
-  title: "Dastat"
+  title: "DASTAT"
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Sobre"
+        href: about.qmd
+      - text: "Projetos"
+        href: projects.qmd
+      - text: "Serviços"
+        href: services.qmd
+      - text: "Contato"
+        href: contact.qmd
 
 format:
   html:
