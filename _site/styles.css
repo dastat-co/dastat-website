@@ -1,0 +1,23 @@
+/* Cabeçalho (Navbar) */
+.navbar {
+  background-color: #DAF0EE; /* Cor de fundo da navbar */
+}
+
+.navbar a {
+  color: #1D6581; /* Cor padrão do texto do link */
+  text-decoration: none; /* Remove sublinhado */
+  transition: transform 0.2s ease-in-out; /* Suaviza a transição */
+}
+
+/* Cor do link ativo */
+.navbar a.active {
+  color: #801782; /* Cor do link ativo (página atual) */
+  font-weight: bold; /* Opcional: destaca o link ativo em negrito */
+  border-bottom: 2px solid #1A2533; /* Linha inferior para destacar o link ativo */
+}
+
+/* Cor do link ao passar o mouse */
+.navbar a:hover {
+  color: #801782; /* Cor dos links ao passar o mouse */
+  transform: scale(1.1); /* Efeito de crescimento ao passar o mouse */
+}
